@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="266ed09e-c8c7-4544-aa92-22c68e8ebab6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAVERRA-AYXA-GARCIA-ALAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAVERRA-AYXA-GARCIA-ALAN.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +23,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2kP0sZOPiomYye1qWyG2N6Mb7GZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +42,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.OdontologoDaoH2Test.executor": "Run",
     "JUnit.OdontologoDaoListTest.testCreateUser.executor": "Run",
     "JUnit.OdontologoDaoListTest.testListarOdontologos.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -69,10 +74,25 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OdontologoDaoH2Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoDaoH2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoDaoH2Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OdontologoDaoH2Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OdontologoDaoListTest.testListarOdontologos" />
         <item itemvalue="JUnit.OdontologoDaoListTest.testCreateUser" />

@@ -85,7 +85,7 @@
   </component>
   <component name="RunManager" selected="JUnit.OdontologoDaoListTest">
     <configuration name="OdontologoDaoH2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -100,7 +100,7 @@
       </method>
     </configuration>
     <configuration name="OdontologoDaoH2Test.traerTodosLosOdontologos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -116,7 +116,7 @@
       </method>
     </configuration>
     <configuration name="OdontologoDaoListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -131,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="OdontologoDaoListTest.testCrearOdontologoH2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -147,7 +147,7 @@
       </method>
     </configuration>
     <configuration name="OdontologoDaoListTest.testListarOdontologosH2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -158,6 +158,19 @@
       <option name="MAIN_CLASS_NAME" value="test.OdontologoDaoListTest" />
       <option name="METHOD_NAME" value="testListarOdontologosH2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CHAVERRA-AYXA_GARCIA-ALAN" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

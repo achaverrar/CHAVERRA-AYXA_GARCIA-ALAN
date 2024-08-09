@@ -1,0 +1,6 @@
+[2024-08-08 22:40:56] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
+[2024-08-08 22:40:56] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=1, matricula='MO124', nombre='Fulanita', apellido='Morales'}
+[2024-08-08 22:40:56] [ INFO ] [OdontologoDaoList:28] Retornando el listado de todos los odontólogos
+[2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
+[2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=1, matricula='MO124', nombre='Fulanita', apellido='Morales'}
+[2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:28] Retornando el listado de todos los odontólogos

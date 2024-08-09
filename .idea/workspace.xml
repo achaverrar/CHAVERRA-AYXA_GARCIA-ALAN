@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="266ed09e-c8c7-4544-aa92-22c68e8ebab6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Odontologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Odontologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.OdontologoDaoListTest.testCreateUser.executor": "Run",
     "JUnit.OdontologoDaoListTest.testListarOdontologos.executor": "Run",
@@ -68,7 +69,14 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OdontologoDaoListTest.testListarOdontologos">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OdontologoDaoListTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
       <extension name="coverage">
@@ -103,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OdontologoDaoListTest.testListarOdontologos" />
         <item itemvalue="JUnit.OdontologoDaoListTest.testCreateUser" />
       </list>

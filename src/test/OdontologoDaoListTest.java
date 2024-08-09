@@ -28,7 +28,7 @@ class OdontologoDaoListTest {
     void testListarOdontologos() {
         IDao<Odontologo> odontologoDao = new OdontologoDaoList();;
         Odontologo odontologo1 = odontologoDao.guardar(new Odontologo("MO123", "Pepito", "Pérez"));
-        Odontologo odontologo2 = odontologoDao.guardar(new Odontologo("MO123", "Fulanita", "Morales"));
+        Odontologo odontologo2 = odontologoDao.guardar(new Odontologo("MO124", "Fulanita", "Morales"));
 
         List<Odontologo> odontologos = odontologoDao.listarTodos();
 

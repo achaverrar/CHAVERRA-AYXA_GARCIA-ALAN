@@ -4,3 +4,37 @@
 [2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
 [2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=1, matricula='MO124', nombre='Fulanita', apellido='Morales'}
 [2024-08-08 22:41:14] [ INFO ] [OdontologoDaoList:28] Retornando el listado de todos los odontólogos
+[2024-08-08 23:09:26] [ INFO ] [OdontologoDaoH2:22] Comenzamos a persistir un odontólogo
+[2024-08-08 23:10:01] [ INFO ] [OdontologoDaoH2:22] Comenzamos a persistir un odontólogo
+[2024-08-08 23:10:02] [ INFO ] [OdontologoDaoH2:42] Nombre: Pepito
+[2024-08-08 23:10:57] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
+[2024-08-08 23:10:57] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=1, matricula='MO124', nombre='Fulanita', apellido='Morales'}
+[2024-08-08 23:10:57] [ INFO ] [OdontologoDaoList:28] Retornando el listado de todos los odontólogos
+[2024-08-08 23:11:20] [ INFO ] [OdontologoDaoH2:22] Comenzamos a persistir un odontólogo
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:42] Nombre: Pepito
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:22] Comenzamos a persistir un odontólogo
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:42] Nombre: Fulanita
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:82] Nombre: Pepito
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:82] Nombre: Pepito
+[2024-08-08 23:11:21] [ INFO ] [OdontologoDaoH2:82] Nombre: Fulanita
+[2024-08-08 23:18:22] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:18:42] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:18:42] [ INFO ] [OdontologoDaoH2:44] Nombre: Pepito
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:44] Nombre: Pepito
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:44] Nombre: Fulanita
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:85] Nombre: Pepito
+[2024-08-08 23:19:45] [ INFO ] [OdontologoDaoH2:85] Nombre: Fulanita
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:44] Nombre: Pepito
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:44] Nombre: Fulanita
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:85] Nombre: Pepito
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:85] Nombre: Fulanita
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=1, matricula='MO124', nombre='Fulanita', apellido='Morales'}
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoList:28] Retornando el listado de todos los odontólogos
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoList:22] Se guardó el odontólogo: Odontologo{id=0, matricula='MO123', nombre='Pepito', apellido='Pérez'}
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:23] Comenzamos a persistir un odontólogo
+[2024-08-08 23:19:52] [ INFO ] [OdontologoDaoH2:44] Nombre: Pepito

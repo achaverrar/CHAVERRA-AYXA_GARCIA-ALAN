@@ -1,5 +1,6 @@
 package dao.impl;
 
+import dao.BD;
 import dao.IDao;
 import model.Odontologo;
 import org.apache.log4j.Logger;
@@ -12,45 +13,39 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
-    private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:./libs";
-    private final static String DB_USER = "sa";
-    private final static String DB_PASSWORD = "";
-
     @Override
     public Odontologo guardar(Odontologo odontologo) {
-        LOGGER.info("Comenzamos a persistir un medicamento");
+        LOGGER.info("Comenzamos a persistir un odontólogo");
 
         Connection connection = null;
         PreparedStatement preparedStatement = null;
 
         try {
-            Class.forName(DB_JDBC_DRIVER);
-            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            connection = BD.getConnection();
 
-            preparedStatement = connection.prepareStatement("INSERT INTO ODONTOLOGO VALUES (?,?,?,?)");
-            preparedStatement.setLong(1, odontologo.getId());
-            preparedStatement.setString(2, odontologo.getMatricula());
-            preparedStatement.setString(3, odontologo.getNombre());
-            preparedStatement.setString(4, odontologo.getApellido());
+            preparedStatement = connection.prepareStatement("INSERT INTO ODONTOLOGOS (matricula, nombre, apellido) VALUES (?,?,?);", Statement.RETURN_GENERATED_KEYS);
+            preparedStatement.setString(1, odontologo.getMatricula());
+            preparedStatement.setString(2, odontologo.getNombre());
+            preparedStatement.setString(3, odontologo.getApellido());
+            preparedStatement.execute();
 
-            //preparedStatement.execute();
+            try(ResultSet rs = preparedStatement.getGeneratedKeys()) {
 
-            ResultSet rs = preparedStatement.executeQuery();
+                while (rs.next()){
+                    odontologo.setId(rs.getLong(1));
 
-            while (rs.next()){
-                odontologo.setId(rs.getLong(1));
-
-                LOGGER.info("Nombre: " +
-                        odontologo.getNombre());
+                    LOGGER.info("Guardamos odontólogo de nombre: " + odontologo.getNombre());
+                }
             }
 
         } catch (Exception e) {
+            LOGGER.info("Error creando odontólogo: ", e);
             e.printStackTrace();
         } finally {
             try {
                 connection.close();
             } catch (Exception ex) {
+                LOGGER.info("Error cerrando conexión: ", ex);
                 ex.printStackTrace();
             }
         }
@@ -60,15 +55,14 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     @Override
     public List<Odontologo> listarTodos() {
+        LOGGER.info("Comenzamos a listar odontólogos");
         Connection connection = null;
         PreparedStatement preparedStatement = null;
 
         List<Odontologo> odontologos = new ArrayList<>();
 
         try {
-            Class.forName(DB_JDBC_DRIVER);
-            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-
+            connection = BD.getConnection();
             preparedStatement = connection.prepareStatement("SELECT * FROM ODONTOLOGOS");
 
             ResultSet rs = preparedStatement.executeQuery();
@@ -81,18 +75,19 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
                 odontologos.add(new Odontologo(id, matricula, nombre, apellido));
 
-                LOGGER.info("Nombre: " +
-                        nombre);
+                LOGGER.info("Odontólogo: " + nombre);
             }
 
             preparedStatement.close();
 
         } catch (Exception e) {
+            LOGGER.info("Error listando odontólogos: ", e);
             e.printStackTrace();
         } finally {
             try {
                 connection.close();
             } catch (SQLException ex) {
+                LOGGER.info("Error cerrando conexión: ", ex);
                 ex.printStackTrace();
             }
         }

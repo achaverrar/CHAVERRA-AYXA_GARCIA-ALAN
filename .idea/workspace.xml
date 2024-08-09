@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="266ed09e-c8c7-4544-aa92-22c68e8ebab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/OdontologoDaoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAVERRA-AYXA-GARCIA-ALAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAVERRA-AYXA-GARCIA-ALAN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/OdontologoList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Odontologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Odontologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OdontologoDaoListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.OdontologoDaoListTest.testCreateUser.executor": "Run",
+    "JUnit.OdontologoDaoListTest.testListarOdontologos.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -72,7 +68,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.OdontologoDaoListTest.testListarOdontologos">
     <configuration name="OdontologoDaoListTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
       <extension name="coverage">
@@ -89,8 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OdontologoDaoListTest.testListarOdontologos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHAVERRA-AYXA-GARCIA-ALAN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoDaoListTest" />
+      <option name="METHOD_NAME" value="testListarOdontologos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OdontologoDaoListTest.testListarOdontologos" />
         <item itemvalue="JUnit.OdontologoDaoListTest.testCreateUser" />
       </list>
     </recent_temporary>

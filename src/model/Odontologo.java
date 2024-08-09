@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Odontologo {
     private Long id;
     private String matricula;
@@ -59,5 +61,18 @@ public class Odontologo {
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Odontologo that = (Odontologo) o;
+        return Objects.equals(id, that.id) && Objects.equals(matricula, that.matricula) && Objects.equals(nombre, that.nombre) && Objects.equals(apellido, that.apellido);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, matricula, nombre, apellido);
     }
 }
